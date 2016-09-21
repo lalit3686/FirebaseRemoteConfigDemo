@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "549852432620",
+    "firebase_url": "https://fir-remoteconfigdemo-e1f82.firebaseio.com",
+    "project_id": "fir-remoteconfigdemo-e1f82",
+    "storage_bucket": "fir-remoteconfigdemo-e1f82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549852432620:android:67642ece328e7af1",
+        "android_client_info": {
+          "package_name": "com.app.firebase.remote.config.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549852432620-91bc6ap61ti19m74305f26fguvsh1f4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6NQa0__XaXlpKhW2UJzkQpkXpQeWOiBA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
