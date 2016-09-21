@@ -59,16 +59,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Subscribe
-    public void handleEvent(Object value){
+    public void handleEvent(Object event){
 
-        if(value instanceof String){
-            Log.e("MainActivity", "string event handled "+value);
+        if(event instanceof String){
+            Log.e("MainActivity", "string event handled "+event);
         }
-        else if(value instanceof Integer){
-            Log.e("MainActivity", "integer event handled "+value);
+        else if(event instanceof Integer){
+            Log.e("MainActivity", "integer event handled "+event);
         }
 
-        updateMessage("Event from EventBus - "+value);
+        updateMessage("Event from EventBus - "+event);
     }
 
     private void updateMessage(String message){
